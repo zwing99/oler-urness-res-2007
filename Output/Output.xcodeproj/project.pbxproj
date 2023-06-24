@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA36D1DF0C516D2D0046D93A /* parsemultifile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA36D1DE0C516D2D0046D93A /* parsemultifile.cpp */; };
+		EA7FB6800C4D966700653044 /* dipole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7FB6770C4D966700653044 /* dipole.cpp */; };
+		EA7FB6810C4D966700653044 /* lattice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7FB6790C4D966700653044 /* lattice.cpp */; };
+		EA7FB6820C4D966700653044 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7FB67B0C4D966700653044 /* Point.cpp */; };
+		EA7FB6830C4D966700653044 /* testLattice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7FB67D0C4D966700653044 /* testLattice.cpp */; };
+		EA7FB6840C4D966700653044 /* vec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7FB67E0C4D966700653044 /* vec.cpp */; };
+		EA7FB7B80C4E29C200653044 /* runprog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7FB7B70C4E29C200653044 /* runprog.cpp */; };
+		EA7FB8360C4EAA6300653044 /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7FB8350C4EAA6300653044 /* parser.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA36D1D00C516C5B0046D93A /* ParseMultiFiles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParseMultiFiles; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA36D1DE0C516D2D0046D93A /* parsemultifile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = parsemultifile.cpp; sourceTree = "<group>"; };
+		EA7FB6700C4D960D00653044 /* Output */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Output; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7FB6770C4D966700653044 /* dipole.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = dipole.cpp; sourceTree = "<group>"; };
+		EA7FB6780C4D966700653044 /* dipole.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = dipole.h; sourceTree = "<group>"; };
+		EA7FB6790C4D966700653044 /* lattice.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = lattice.cpp; sourceTree = "<group>"; };
+		EA7FB67A0C4D966700653044 /* lattice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = lattice.h; sourceTree = "<group>"; };
+		EA7FB67B0C4D966700653044 /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		EA7FB67C0C4D966700653044 /* Point.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		EA7FB67D0C4D966700653044 /* testLattice.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = testLattice.cpp; sourceTree = "<group>"; };
+		EA7FB67E0C4D966700653044 /* vec.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = vec.cpp; sourceTree = "<group>"; };
+		EA7FB67F0C4D966700653044 /* vec.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = vec.h; sourceTree = "<group>"; };
+		EA7FB7B20C4E299B00653044 /* RunProg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RunProg; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7FB7B70C4E29C200653044 /* runprog.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = runprog.cpp; sourceTree = "<group>"; };
+		EA7FB8270C4EA9DA00653044 /* ParseFile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParseFile; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7FB8350C4EAA6300653044 /* parser.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = parser.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA36D1CE0C516C5B0046D93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7FB66E0C4D960D00653044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7FB7B00C4E299B00653044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7FB8250C4EA9DA00653044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA7FB6600C4D957400653044 = {
+			isa = PBXGroup;
+			children = (
+				EA7FB7B70C4E29C200653044 /* runprog.cpp */,
+				EA7FB8350C4EAA6300653044 /* parser.cpp */,
+				EA36D1DE0C516D2D0046D93A /* parsemultifile.cpp */,
+				EA7FB6770C4D966700653044 /* dipole.cpp */,
+				EA7FB6780C4D966700653044 /* dipole.h */,
+				EA7FB6790C4D966700653044 /* lattice.cpp */,
+				EA7FB67A0C4D966700653044 /* lattice.h */,
+				EA7FB67B0C4D966700653044 /* Point.cpp */,
+				EA7FB67C0C4D966700653044 /* Point.h */,
+				EA7FB67D0C4D966700653044 /* testLattice.cpp */,
+				EA7FB67E0C4D966700653044 /* vec.cpp */,
+				EA7FB67F0C4D966700653044 /* vec.h */,
+				EA7FB6710C4D960D00653044 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA7FB6710C4D960D00653044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA7FB6700C4D960D00653044 /* Output */,
+				EA7FB7B20C4E299B00653044 /* RunProg */,
+				EA7FB8270C4EA9DA00653044 /* ParseFile */,
+				EA36D1D00C516C5B0046D93A /* ParseMultiFiles */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA36D1CF0C516C5B0046D93A /* ParseMultiFiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA36D1D50C516C820046D93A /* Build configuration list for PBXNativeTarget "ParseMultiFiles" */;
+			buildPhases = (
+				EA36D1CD0C516C5B0046D93A /* Sources */,
+				EA36D1CE0C516C5B0046D93A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParseMultiFiles;
+			productName = ParseMultiFiles;
+			productReference = EA36D1D00C516C5B0046D93A /* ParseMultiFiles */;
+			productType = "com.apple.product-type.tool";
+		};
+		EA7FB66F0C4D960D00653044 /* Output */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7FB6730C4D960E00653044 /* Build configuration list for PBXNativeTarget "Output" */;
+			buildPhases = (
+				EA7FB66D0C4D960D00653044 /* Sources */,
+				EA7FB66E0C4D960D00653044 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Output;
+			productName = Output;
+			productReference = EA7FB6700C4D960D00653044 /* Output */;
+			productType = "com.apple.product-type.tool";
+		};
+		EA7FB7B10C4E299B00653044 /* RunProg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7FB7B40C4E29B900653044 /* Build configuration list for PBXNativeTarget "RunProg" */;
+			buildPhases = (
+				EA7FB7AF0C4E299B00653044 /* Sources */,
+				EA7FB7B00C4E299B00653044 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RunProg;
+			productName = RunProg;
+			productReference = EA7FB7B20C4E299B00653044 /* RunProg */;
+			productType = "com.apple.product-type.tool";
+		};
+		EA7FB8260C4EA9DA00653044 /* ParseFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7FB82C0C4EA9FD00653044 /* Build configuration list for PBXNativeTarget "ParseFile" */;
+			buildPhases = (
+				EA7FB8240C4EA9DA00653044 /* Sources */,
+				EA7FB8250C4EA9DA00653044 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParseFile;
+			productName = ParseFile;
+			productReference = EA7FB8270C4EA9DA00653044 /* ParseFile */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA7FB6620C4D957400653044 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EA7FB6630C4D957400653044 /* Build configuration list for PBXProject "Output" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = EA7FB6600C4D957400653044;
+			productRefGroup = EA7FB6710C4D960D00653044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA7FB66F0C4D960D00653044 /* Output */,
+				EA7FB7B10C4E299B00653044 /* RunProg */,
+				EA7FB8260C4EA9DA00653044 /* ParseFile */,
+				EA36D1CF0C516C5B0046D93A /* ParseMultiFiles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA36D1CD0C516C5B0046D93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA36D1DF0C516D2D0046D93A /* parsemultifile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7FB66D0C4D960D00653044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7FB6800C4D966700653044 /* dipole.cpp in Sources */,
+				EA7FB6810C4D966700653044 /* lattice.cpp in Sources */,
+				EA7FB6820C4D966700653044 /* Point.cpp in Sources */,
+				EA7FB6830C4D966700653044 /* testLattice.cpp in Sources */,
+				EA7FB6840C4D966700653044 /* vec.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7FB7AF0C4E299B00653044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7FB7B80C4E29C200653044 /* runprog.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7FB8240C4EA9DA00653044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7FB8360C4EAA6300653044 /* parser.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA36D1D60C516C820046D93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = ParseMultiFiles;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		EA36D1D70C516C820046D93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = ParseMultiFiles;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		EA7FB6640C4D957400653044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		EA7FB6650C4D957400653044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		EA7FB6740C4D960E00653044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = Output;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		EA7FB6750C4D960E00653044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = Output;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		EA7FB7B50C4E29B900653044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = RunProg;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		EA7FB7B60C4E29B900653044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = RunProg;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		EA7FB82D0C4EA9FD00653044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = ParseFile;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		EA7FB82E0C4EA9FD00653044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = ParseFile;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA36D1D50C516C820046D93A /* Build configuration list for PBXNativeTarget "ParseMultiFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA36D1D60C516C820046D93A /* Debug */,
+				EA36D1D70C516C820046D93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7FB6630C4D957400653044 /* Build configuration list for PBXProject "Output" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7FB6640C4D957400653044 /* Debug */,
+				EA7FB6650C4D957400653044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7FB6730C4D960E00653044 /* Build configuration list for PBXNativeTarget "Output" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7FB6740C4D960E00653044 /* Debug */,
+				EA7FB6750C4D960E00653044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7FB7B40C4E29B900653044 /* Build configuration list for PBXNativeTarget "RunProg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7FB7B50C4E29B900653044 /* Debug */,
+				EA7FB7B60C4E29B900653044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7FB82C0C4EA9FD00653044 /* Build configuration list for PBXNativeTarget "ParseFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7FB82D0C4EA9FD00653044 /* Debug */,
+				EA7FB82E0C4EA9FD00653044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA7FB6620C4D957400653044 /* Project object */;
+}

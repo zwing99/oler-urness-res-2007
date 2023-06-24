@@ -1,0 +1,5 @@
+/Users/zacoler/Documents/sumres/Iteration/Visualization/VectorMath.h: In function 'void GMagHess(unsigned char*, unsigned char*, int, int, int, float*)':
+/Users/zacoler/Documents/sumres/Iteration/Visualization/VectorMath.h:1099: warning: comparison is always false due to limited range of data type
+/Users/zacoler/Documents/sumres/Iteration/Visualization/vec.cpp: At global scope:
+/Users/zacoler/Documents/sumres/Iteration/Visualization/vec.cpp:46: error: prototype for 'double vec::dot(vec)' does not match any in class 'vec'
+/Users/zacoler/Documents/sumres/Iteration/Visualization/vec.cpp:37: error: candidate is: double vec::dot(vec*)

@@ -1,0 +1,1725 @@
+
+
+*******************************************************************************
+Wed Jul 18 08:34:41 2007
+
+
+FIT:    data read from 'data.txt'
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+
+
+*******************************************************************************
+Wed Jul 18 08:34:47 2007
+
+
+FIT:    data read from 'data.txt'
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+
+
+*******************************************************************************
+Wed Jul 18 08:34:48 2007
+
+
+FIT:    data read from 'data.txt'
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+
+
+*******************************************************************************
+Wed Jul 18 08:34:55 2007
+
+
+FIT:    data read from 'data.txt' using 7:10
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 1.20719           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.74921
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.14165
+rel. change during last iteration : -6.97953e-07
+
+degrees of freedom (ndf) : 8
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.133065
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.0177062
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.486682         +/- 0.06983      (14.35%)
+b               = 7.85098          +/- 1.974        (25.14%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.928  1.000 
+
+
+*******************************************************************************
+Wed Jul 18 08:36:38 2007
+
+
+FIT:    data read from 'data.txt' using 7:10
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 6245.5            delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 27.8457
+
+initial set of free parameter values
+
+a               = 0.486682
+b               = 7.85098
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.0462295
+rel. change during last iteration : -1.58502e-08
+
+degrees of freedom (ndf) : 8
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0760177
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00577869
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -0.00782492      +/- 0.0009139    (11.68%)
+b               = 0.99588          +/- 0.03598      (3.613%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.744  1.000 
+
+
+*******************************************************************************
+Mon Jul 23 13:09:10 2007
+
+
+FIT:    data read from 'mydata5_6.txt' using 1:6
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 3.34775e+08       delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 408.555
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.29906e-07
+rel. change during last iteration : -1.00163e-10
+
+degrees of freedom (ndf) : 998
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 1.14091e-05
+variance of residuals (reduced chisquare) = WSSR/ndf : 1.30167e-10
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -1.16116e-09     +/- 1.25e-09     (107.6%)
+b               = 0.0600013        +/- 7.221e-07    (0.001203%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.866  1.000 
+
+
+*******************************************************************************
+Mon Jul 23 13:09:50 2007
+
+
+FIT:    data read from 'mydata5_6.txt' using 1:6
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 1.29906e-07       delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 408.555
+
+initial set of free parameter values
+
+a               = -1.16116e-09
+b               = 0.0600013
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.29906e-07
+rel. change during last iteration : -5.7053e-15
+
+degrees of freedom (ndf) : 998
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 1.14091e-05
+variance of residuals (reduced chisquare) = WSSR/ndf : 1.30167e-10
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -1.16116e-09     +/- 1.25e-09     (107.6%)
+b               = 0.0600013        +/- 7.221e-07    (0.001203%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.866  1.000 
+
+
+*******************************************************************************
+Mon Jul 23 13:11:01 2007
+
+
+FIT:    data read from 'mydata5_6.txt' using 1:6
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 1.29906e-07       delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 408.555
+
+initial set of free parameter values
+
+a               = -1.16116e-09
+b               = 0.0600013
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.29906e-07
+rel. change during last iteration : -2.99528e-14
+
+degrees of freedom (ndf) : 998
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 1.14091e-05
+variance of residuals (reduced chisquare) = WSSR/ndf : 1.30167e-10
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -1.16116e-09     +/- 1.25e-09     (107.6%)
+b               = 0.0600013        +/- 7.221e-07    (0.001203%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.866  1.000 
+
+
+*******************************************************************************
+Mon Jul 23 13:11:32 2007
+
+
+FIT:    data read from 'mydata5_6.txt' using 1:6
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 1.29906e-07       delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 408.555
+
+initial set of free parameter values
+
+a               = -1.16116e-09
+b               = 0.0600013
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.29906e-07
+rel. change during last iteration : 0
+
+degrees of freedom (ndf) : 998
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 1.14091e-05
+variance of residuals (reduced chisquare) = WSSR/ndf : 1.30167e-10
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -1.16116e-09     +/- 1.25e-09     (107.6%)
+b               = 0.0600013        +/- 7.221e-07    (0.001203%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.866  1.000 
+
+
+*******************************************************************************
+Fri Jul 27 14:12:17 2007
+
+
+FIT:    data read from 'mydata5_6.txt' using 1:6
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 3.34775e+08       delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 408.555
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.29906e-07
+rel. change during last iteration : -1.00163e-10
+
+degrees of freedom (ndf) : 998
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 1.14091e-05
+variance of residuals (reduced chisquare) = WSSR/ndf : 1.30167e-10
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -1.16116e-09     +/- 1.25e-09     (107.6%)
+b               = 0.0600013        +/- 7.221e-07    (0.001203%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.866  1.000 
+
+
+*******************************************************************************
+Thu Feb 28 01:20:31 2008
+
+
+FIT:    data read from 'mydata.txt' using 1:2
+        #datapoints = 73
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+BREAK:          Undefined value during function evaluation
+
+
+
+*******************************************************************************
+Thu Feb 28 01:21:09 2008
+
+
+FIT:    data read from 'mydata.txt' using 1:2
+        #datapoints = 75
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+BREAK:          Undefined value during function evaluation
+
+
+
+*******************************************************************************
+Thu Feb 28 01:27:32 2008
+
+
+FIT:    data read from 'mydata.txt' using 1:2
+        #datapoints = 80
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+BREAK:          Undefined value during function evaluation
+
+
+
+*******************************************************************************
+Thu Feb 28 01:28:17 2008
+
+
+FIT:    data read from 'mydata.txt' using 1:2
+        #datapoints = 75
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 31.3856           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 13 iterations the fit converged.
+final sum of squares of residuals : 0.661291
+rel. change during last iteration : -7.60936e-06
+
+degrees of freedom (ndf) : 73
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0951776
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00905878
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.98749          +/- 0.03758      (3.806%)
+b               = 0.059475         +/- 0.003795     (6.381%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.825  1.000 
+
+
+*******************************************************************************
+Thu Feb 28 01:32:00 2008
+
+
+FIT:    data read from 'mydata_mod.txt' using 1:2
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 0.0948583         delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 3.63744
+
+initial set of free parameter values
+
+a               = 0.98749
+b               = 0.059475
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0938994
+rel. change during last iteration : -1.22438e-08
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0849884
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00722303
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.986615         +/- 0.07376      (7.476%)
+b               = 0.0610748        +/- 0.007691     (12.59%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.823  1.000 
+
+
+*******************************************************************************
+Thu Feb 28 13:07:51 2008
+
+
+FIT:    data read from 'mydata_mod2.txt' using 1:2
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+
+
+*******************************************************************************
+Thu Feb 28 13:08:01 2008
+
+
+FIT:    data read from 'mydata_mod2.txt' using 1:2
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+
+
+*******************************************************************************
+Thu Feb 28 13:08:06 2008
+
+
+FIT:    data read from 'mydata_mod2.txt' using 1:2
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 7.92138           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 48 iterations the fit converged.
+final sum of squares of residuals : 0.195801
+rel. change during last iteration : -4.60622e-07
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.122726
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.0150616
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 1.01758          +/- 0.1316       (12.93%)
+b               = 0.0455509        +/- 0.00945      (20.75%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.846  1.000 
+
+
+*******************************************************************************
+Thu Feb 28 13:15:41 2008
+
+
+FIT:    data read from 'mydata_mod2.txt' using 1:2
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 7.10348           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.68526
+
+initial set of free parameter values
+
+c               = 1
+d               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.00594146
+rel. change during last iteration : -7.82093e-08
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0213784
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.000457035
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+c               = 0.956502         +/- 0.01418      (1.482%)
+d               = 56.6548          +/- 1.821        (3.214%)
+
+
+correlation matrix of the fit parameters:
+
+               c      d      
+c               1.000 
+d               0.616  1.000 
+
+
+*******************************************************************************
+Thu Feb 28 13:18:44 2008
+
+
+FIT:    data read from 'mydata_mod3.txt' using 1:2
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 0.268674          delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 4.45308
+
+initial set of free parameter values
+
+a               = 1.01758
+b               = 0.0455509
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0396989
+rel. change during last iteration : -2.36524e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0552608
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00305376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.966062         +/- 0.04287      (4.438%)
+b               = 0.0730801        +/- 0.005655     (7.739%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.812  1.000 
+
+
+*******************************************************************************
+Thu May 15 18:08:17 2008
+
+
+FIT:    data read from 'mydata5_6.txt' using 1:6
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 3.34775e+08       delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 408.555
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.29906e-07
+rel. change during last iteration : -1.00163e-10
+
+degrees of freedom (ndf) : 998
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 1.14091e-05
+variance of residuals (reduced chisquare) = WSSR/ndf : 1.30167e-10
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -1.16116e-09     +/- 1.25e-09     (107.6%)
+b               = 0.0600013        +/- 7.221e-07    (0.001203%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.866  1.000 
+
+
+*******************************************************************************
+Thu May 15 18:08:38 2008
+
+
+FIT:    data read from 'mydata5_6.txt' using 1:6
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 1.29906e-07       delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 408.555
+
+initial set of free parameter values
+
+a               = -1.16116e-09
+b               = 0.0600013
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.29906e-07
+rel. change during last iteration : -5.7053e-15
+
+degrees of freedom (ndf) : 998
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 1.14091e-05
+variance of residuals (reduced chisquare) = WSSR/ndf : 1.30167e-10
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -1.16116e-09     +/- 1.25e-09     (107.6%)
+b               = 0.0600013        +/- 7.221e-07    (0.001203%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.866  1.000 
+
+
+*******************************************************************************
+Thu May 15 18:13:07 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+
+
+*******************************************************************************
+Thu May 15 18:13:15 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 5.05146           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 0.0396989
+rel. change during last iteration : -3.25911e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0552608
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00305376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.966066         +/- 0.04287      (4.438%)
+b               = 0.0730795        +/- 0.005655     (7.739%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.812  1.000 
+
+
+*******************************************************************************
+Thu May 15 18:15:36 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu May 15 18:19:59 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu May 15 18:25:26 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu May 15 18:25:52 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 145567            delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 3785.88
+
+initial set of free parameter values
+
+a               = 0.966066
+b               = 0.0730795
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 4.33492
+rel. change during last iteration : -7.77865e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.577456
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.333455
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.0120725        +/- 0.4521       (3745%)
+b               = 0.128742         +/- 1.218        (946.1%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b               1.000  1.000 
+
+
+*******************************************************************************
+Thu May 15 18:26:46 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 4.33492           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 8.14423
+
+initial set of free parameter values
+
+a               = 0.0120725
+b               = 0.128742
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 4.33416
+rel. change during last iteration : -5.12617e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.577405
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.333397
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.013837         +/- 0.5234       (3783%)
+b               = 0.132947         +/- 1.269        (954.2%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b               1.000  1.000 
+
+
+*******************************************************************************
+Thu May 15 18:28:07 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 4.43106           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.520084
+
+initial set of free parameter values
+
+a               = 0.013837
+b               = 0.132947
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.0396989
+rel. change during last iteration : -4.58311e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0552608
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00305376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.966012         +/- 0.04287      (4.437%)
+b               = 0.0730883        +/- 0.005656     (7.739%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.812  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:08:33 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 5.05146           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 0.0396989
+rel. change during last iteration : -3.25911e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0552608
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00305376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.966066         +/- 0.04287      (4.438%)
+b               = 0.0730795        +/- 0.005655     (7.739%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.812  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:09:00 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 5.05146           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 0.0396989
+rel. change during last iteration : -3.25911e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0552608
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00305376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.966066         +/- 0.04287      (4.438%)
+b               = 0.0730795        +/- 0.005655     (7.739%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.812  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:10:34 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 5.05146           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 0.0396989
+rel. change during last iteration : -3.25911e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0552608
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00305376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.966066         +/- 0.04287      (4.438%)
+b               = 0.0730795        +/- 0.005655     (7.739%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.812  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:10:58 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 5.05146           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 0.0396989
+rel. change during last iteration : -3.25911e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0552608
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00305376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.966066         +/- 0.04287      (4.438%)
+b               = 0.0730795        +/- 0.005655     (7.739%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.812  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:11:08 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 5.05146           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 0.0396989
+rel. change during last iteration : -3.25911e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0552608
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00305376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.966066         +/- 0.04287      (4.438%)
+b               = 0.0730795        +/- 0.005655     (7.739%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.812  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:12:06 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 5.05146           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 0.0396989
+rel. change during last iteration : -3.25911e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0552608
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00305376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.966066         +/- 0.04287      (4.438%)
+b               = 0.0730795        +/- 0.005655     (7.739%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.812  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:26:54 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 5.05146           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 0.0396989
+rel. change during last iteration : -3.25911e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0552608
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00305376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.966066         +/- 0.04287      (4.438%)
+b               = 0.0730795        +/- 0.005655     (7.739%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.812  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:28:05 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 5.05146           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 0.0396989
+rel. change during last iteration : -3.25911e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0552608
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00305376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.966066         +/- 0.04287      (4.438%)
+b               = 0.0730795        +/- 0.005655     (7.739%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.812  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:29:02 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 5.05146           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 0.0396989
+rel. change during last iteration : -3.25911e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0552608
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00305376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.966066         +/- 0.04287      (4.438%)
+b               = 0.0730795        +/- 0.005655     (7.739%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.812  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:29:29 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 5.05146           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 0.0396989
+rel. change during last iteration : -3.25911e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0552608
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00305376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.966066         +/- 0.04287      (4.438%)
+b               = 0.0730795        +/- 0.005655     (7.739%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.812  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:29:50 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 5.05146           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 0.0396989
+rel. change during last iteration : -3.25911e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0552608
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00305376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.966066         +/- 0.04287      (4.438%)
+b               = 0.0730795        +/- 0.005655     (7.739%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.812  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:30:37 2008
+
+
+FIT:    data read from "mydata_mod2.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 7.92138           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 48 iterations the fit converged.
+final sum of squares of residuals : 0.195801
+rel. change during last iteration : -4.60622e-07
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.122726
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.0150616
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 1.01758          +/- 0.1316       (12.93%)
+b               = 0.0455509        +/- 0.00945      (20.75%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.846  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:30:51 2008
+
+
+FIT:    data read from "mydata_mod2.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 7.92138           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 48 iterations the fit converged.
+final sum of squares of residuals : 0.195801
+rel. change during last iteration : -4.60622e-07
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.122726
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.0150616
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 1.01758          +/- 0.1316       (12.93%)
+b               = 0.0455509        +/- 0.00945      (20.75%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.846  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:31:42 2008
+
+
+FIT:    data read from "mydata_mod.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 6.12392           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 38 iterations the fit converged.
+final sum of squares of residuals : 0.0938994
+rel. change during last iteration : -1.37945e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0849884
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00722303
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.986577         +/- 0.07375      (7.476%)
+b               = 0.0610795        +/- 0.007691     (12.59%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.823  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:32:45 2008
+
+
+FIT:    data read from "mydata_mod3.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 5.05146           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 0.0396989
+rel. change during last iteration : -3.25911e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0552608
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00305376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.966066         +/- 0.04287      (4.438%)
+b               = 0.0730795        +/- 0.005655     (7.739%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.812  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:33:43 2008
+
+
+FIT:    data read from "mydata_mod2.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 7.92138           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 48 iterations the fit converged.
+final sum of squares of residuals : 0.195801
+rel. change during last iteration : -4.60622e-07
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.122726
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.0150616
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 1.01758          +/- 0.1316       (12.93%)
+b               = 0.0455509        +/- 0.00945      (20.75%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.846  1.000 
+
+
+*******************************************************************************
+Fri May 16 12:34:00 2008
+
+
+FIT:    data read from "mydata_mod.txt"
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 6.12392           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.706842
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 38 iterations the fit converged.
+final sum of squares of residuals : 0.0938994
+rel. change during last iteration : -1.37945e-06
+
+degrees of freedom (ndf) : 13
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.0849884
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.00722303
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.986577         +/- 0.07375      (7.476%)
+b               = 0.0610795        +/- 0.007691     (12.59%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.823  1.000 

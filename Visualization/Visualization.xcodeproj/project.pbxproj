@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA606FF00C2C5EF000B35C3C /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA606FEE0C2C5EF000B35C3C /* GLUT.framework */; };
+		EA606FF10C2C5EF000B35C3C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA606FEF0C2C5EF000B35C3C /* OpenGL.framework */; };
+		EA6070030C2C5F2100B35C3C /* dipole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FF60C2C5F2100B35C3C /* dipole.cpp */; };
+		EA6070040C2C5F2100B35C3C /* lattice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FF80C2C5F2100B35C3C /* lattice.cpp */; };
+		EA6070050C2C5F2100B35C3C /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FFA0C2C5F2100B35C3C /* Point.cpp */; };
+		EA6070060C2C5F2100B35C3C /* StreamLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FFC0C2C5F2100B35C3C /* StreamLine.cpp */; };
+		EA6070070C2C5F2100B35C3C /* StreamSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FFE0C2C5F2100B35C3C /* StreamSurface.cpp */; };
+		EA6070080C2C5F2100B35C3C /* testLattice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA6070000C2C5F2100B35C3C /* testLattice.cpp */; };
+		EA6070090C2C5F2100B35C3C /* vec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA6070010C2C5F2100B35C3C /* vec.cpp */; };
+		EA84196F0C32FA5C00B7D356 /* VolumeRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA84196D0C32FA5C00B7D356 /* VolumeRenderer.cpp */; };
+		EAC680100C58693500DE8849 /* GLUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACA09E50C3473BF0077EB2E /* GLUI.framework */; };
+		EAC680110C58693600DE8849 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA606FEE0C2C5EF000B35C3C /* GLUT.framework */; };
+		EAC680120C58693600DE8849 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA606FEF0C2C5EF000B35C3C /* OpenGL.framework */; };
+		EAC680130C58693E00DE8849 /* VolumeRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA84196D0C32FA5C00B7D356 /* VolumeRenderer.cpp */; };
+		EAC680140C58693E00DE8849 /* dipole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FF60C2C5F2100B35C3C /* dipole.cpp */; };
+		EAC680150C58693E00DE8849 /* lattice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FF80C2C5F2100B35C3C /* lattice.cpp */; };
+		EAC680160C58693E00DE8849 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FFA0C2C5F2100B35C3C /* Point.cpp */; };
+		EAC680170C58693E00DE8849 /* StreamLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FFC0C2C5F2100B35C3C /* StreamLine.cpp */; };
+		EAC680180C58693E00DE8849 /* StreamSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FFE0C2C5F2100B35C3C /* StreamSurface.cpp */; };
+		EAC6801A0C58693E00DE8849 /* vec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA6070010C2C5F2100B35C3C /* vec.cpp */; };
+		EAC680530C586C1D00DE8849 /* VolumeRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA84196D0C32FA5C00B7D356 /* VolumeRenderer.cpp */; };
+		EAC680540C586C1D00DE8849 /* dipole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FF60C2C5F2100B35C3C /* dipole.cpp */; };
+		EAC680550C586C1D00DE8849 /* lattice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FF80C2C5F2100B35C3C /* lattice.cpp */; };
+		EAC680560C586C1D00DE8849 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FFA0C2C5F2100B35C3C /* Point.cpp */; };
+		EAC680570C586C1D00DE8849 /* StreamLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FFC0C2C5F2100B35C3C /* StreamLine.cpp */; };
+		EAC680580C586C1D00DE8849 /* StreamSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FFE0C2C5F2100B35C3C /* StreamSurface.cpp */; };
+		EAC680590C586C1D00DE8849 /* vec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA6070010C2C5F2100B35C3C /* vec.cpp */; };
+		EAC6805C0C586C1D00DE8849 /* GLUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACA09E50C3473BF0077EB2E /* GLUI.framework */; };
+		EAC6805D0C586C1D00DE8849 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA606FEE0C2C5EF000B35C3C /* GLUT.framework */; };
+		EAC6805E0C586C1D00DE8849 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA606FEF0C2C5EF000B35C3C /* OpenGL.framework */; };
+		EAC680700C586CB300DE8849 /* VolumeRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA84196D0C32FA5C00B7D356 /* VolumeRenderer.cpp */; };
+		EAC680710C586CB300DE8849 /* dipole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FF60C2C5F2100B35C3C /* dipole.cpp */; };
+		EAC680720C586CB300DE8849 /* lattice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FF80C2C5F2100B35C3C /* lattice.cpp */; };
+		EAC680730C586CB300DE8849 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FFA0C2C5F2100B35C3C /* Point.cpp */; };
+		EAC680740C586CB300DE8849 /* StreamLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FFC0C2C5F2100B35C3C /* StreamLine.cpp */; };
+		EAC680750C586CB300DE8849 /* StreamSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA606FFE0C2C5F2100B35C3C /* StreamSurface.cpp */; };
+		EAC680760C586CB300DE8849 /* vec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA6070010C2C5F2100B35C3C /* vec.cpp */; };
+		EAC680790C586CB300DE8849 /* GLUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACA09E50C3473BF0077EB2E /* GLUI.framework */; };
+		EAC6807A0C586CB300DE8849 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA606FEE0C2C5EF000B35C3C /* GLUT.framework */; };
+		EAC6807B0C586CB300DE8849 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA606FEF0C2C5EF000B35C3C /* OpenGL.framework */; };
+		EAC680830C586CEC00DE8849 /* testLatticetemp2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAC680820C586CEC00DE8849 /* testLatticetemp2.cpp */; };
+		EAC680840C586CFA00DE8849 /* testLatticenotemp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAC6801D0C586A0F00DE8849 /* testLatticenotemp.cpp */; };
+		EAC680A90C586DE700DE8849 /* testLatticetemp1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAC6801F0C586A2A00DE8849 /* testLatticetemp1.cpp */; };
+		EACA09E60C3473BF0077EB2E /* GLUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACA09E50C3473BF0077EB2E /* GLUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA606FE60C2C5ED000B35C3C /* Visualization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visualization.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA606FE90C2C5ED000B35C3C /* Visualization-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Visualization-Info.plist"; sourceTree = "<group>"; };
+		EA606FEE0C2C5EF000B35C3C /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		EA606FEF0C2C5EF000B35C3C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		EA606FF60C2C5F2100B35C3C /* dipole.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = dipole.cpp; sourceTree = "<group>"; };
+		EA606FF70C2C5F2100B35C3C /* dipole.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = dipole.h; sourceTree = "<group>"; };
+		EA606FF80C2C5F2100B35C3C /* lattice.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = lattice.cpp; sourceTree = "<group>"; };
+		EA606FF90C2C5F2100B35C3C /* lattice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = lattice.h; sourceTree = "<group>"; };
+		EA606FFA0C2C5F2100B35C3C /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		EA606FFB0C2C5F2100B35C3C /* Point.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		EA606FFC0C2C5F2100B35C3C /* StreamLine.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = StreamLine.cpp; sourceTree = "<group>"; };
+		EA606FFD0C2C5F2100B35C3C /* StreamLine.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StreamLine.h; sourceTree = "<group>"; };
+		EA606FFE0C2C5F2100B35C3C /* StreamSurface.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = StreamSurface.cpp; sourceTree = "<group>"; };
+		EA606FFF0C2C5F2100B35C3C /* StreamSurface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StreamSurface.h; sourceTree = "<group>"; };
+		EA6070000C2C5F2100B35C3C /* testLattice.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = testLattice.cpp; sourceTree = "<group>"; };
+		EA6070010C2C5F2100B35C3C /* vec.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = vec.cpp; sourceTree = "<group>"; };
+		EA6070020C2C5F2100B35C3C /* vec.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = vec.h; sourceTree = "<group>"; };
+		EA84196C0C32FA5C00B7D356 /* VectorMath.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = VectorMath.h; sourceTree = "<group>"; };
+		EA84196D0C32FA5C00B7D356 /* VolumeRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = VolumeRenderer.cpp; sourceTree = "<group>"; };
+		EA84196E0C32FA5C00B7D356 /* VolumeRenderer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = VolumeRenderer.h; sourceTree = "<group>"; };
+		EAA1E77A0D4E7AA0003E0858 /* LeopardTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeopardTest-Info.plist"; sourceTree = "<group>"; };
+		EAC67FD10C58684500DE8849 /* Test_notemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_notemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC67FD30C58684500DE8849 /* Test_nomag-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Test_nomag-Info.plist"; sourceTree = "<group>"; };
+		EAC6801D0C586A0F00DE8849 /* testLatticenotemp.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = testLatticenotemp.cpp; sourceTree = "<group>"; };
+		EAC6801F0C586A2A00DE8849 /* testLatticetemp1.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = testLatticetemp1.cpp; sourceTree = "<group>"; };
+		EAC680620C586C1E00DE8849 /* Test_temp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_temp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC680640C586C1E00DE8849 /* Test_nomag-Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Test_nomag-Info copy.plist"; sourceTree = "<group>"; };
+		EAC6807F0C586CB300DE8849 /* Test_temp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_temp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC680810C586CB300DE8849 /* Test_nomag-Info copy 2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Test_nomag-Info copy 2.plist"; sourceTree = "<group>"; };
+		EAC680820C586CEC00DE8849 /* testLatticetemp2.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = testLatticetemp2.cpp; sourceTree = "<group>"; };
+		EACA09E50C3473BF0077EB2E /* GLUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUI.framework; path = /Library/Frameworks/GLUI.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA606FE40C2C5ED000B35C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA606FF00C2C5EF000B35C3C /* GLUT.framework in Frameworks */,
+				EA606FF10C2C5EF000B35C3C /* OpenGL.framework in Frameworks */,
+				EACA09E60C3473BF0077EB2E /* GLUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC67FCF0C58684500DE8849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC680100C58693500DE8849 /* GLUI.framework in Frameworks */,
+				EAC680110C58693600DE8849 /* GLUT.framework in Frameworks */,
+				EAC680120C58693600DE8849 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC6805B0C586C1D00DE8849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC6805C0C586C1D00DE8849 /* GLUI.framework in Frameworks */,
+				EAC6805D0C586C1D00DE8849 /* GLUT.framework in Frameworks */,
+				EAC6805E0C586C1D00DE8849 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC680780C586CB300DE8849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC680790C586CB300DE8849 /* GLUI.framework in Frameworks */,
+				EAC6807A0C586CB300DE8849 /* GLUT.framework in Frameworks */,
+				EAC6807B0C586CB300DE8849 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA606FD80C2C5EBE00B35C3C = {
+			isa = PBXGroup;
+			children = (
+				EA84196C0C32FA5C00B7D356 /* VectorMath.h */,
+				EA84196D0C32FA5C00B7D356 /* VolumeRenderer.cpp */,
+				EA84196E0C32FA5C00B7D356 /* VolumeRenderer.h */,
+				EA606FF60C2C5F2100B35C3C /* dipole.cpp */,
+				EA606FF70C2C5F2100B35C3C /* dipole.h */,
+				EA606FF80C2C5F2100B35C3C /* lattice.cpp */,
+				EA606FF90C2C5F2100B35C3C /* lattice.h */,
+				EA606FFA0C2C5F2100B35C3C /* Point.cpp */,
+				EA606FFB0C2C5F2100B35C3C /* Point.h */,
+				EA606FFC0C2C5F2100B35C3C /* StreamLine.cpp */,
+				EA606FFD0C2C5F2100B35C3C /* StreamLine.h */,
+				EA606FFE0C2C5F2100B35C3C /* StreamSurface.cpp */,
+				EA606FFF0C2C5F2100B35C3C /* StreamSurface.h */,
+				EA6070000C2C5F2100B35C3C /* testLattice.cpp */,
+				EAC6801F0C586A2A00DE8849 /* testLatticetemp1.cpp */,
+				EAC680820C586CEC00DE8849 /* testLatticetemp2.cpp */,
+				EAC6801D0C586A0F00DE8849 /* testLatticenotemp.cpp */,
+				EA6070010C2C5F2100B35C3C /* vec.cpp */,
+				EA6070020C2C5F2100B35C3C /* vec.h */,
+				EACA09E50C3473BF0077EB2E /* GLUI.framework */,
+				EA606FEE0C2C5EF000B35C3C /* GLUT.framework */,
+				EA606FEF0C2C5EF000B35C3C /* OpenGL.framework */,
+				EA606FE70C2C5ED000B35C3C /* Products */,
+				EA606FE90C2C5ED000B35C3C /* Visualization-Info.plist */,
+				EAC67FD30C58684500DE8849 /* Test_nomag-Info.plist */,
+				EAC680640C586C1E00DE8849 /* Test_nomag-Info copy.plist */,
+				EAC680810C586CB300DE8849 /* Test_nomag-Info copy 2.plist */,
+				EAA1E77A0D4E7AA0003E0858 /* LeopardTest-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		EA606FE70C2C5ED000B35C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA606FE60C2C5ED000B35C3C /* Visualization.app */,
+				EAC67FD10C58684500DE8849 /* Test_notemp.app */,
+				EAC680620C586C1E00DE8849 /* Test_temp1.app */,
+				EAC6807F0C586CB300DE8849 /* Test_temp2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA606FE50C2C5ED000B35C3C /* Visualization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA606FEA0C2C5ED000B35C3C /* Build configuration list for PBXNativeTarget "Visualization" */;
+			buildPhases = (
+				EA606FE20C2C5ED000B35C3C /* Resources */,
+				EA606FE30C2C5ED000B35C3C /* Sources */,
+				EA606FE40C2C5ED000B35C3C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Visualization;
+			productName = Visualization;
+			productReference = EA606FE60C2C5ED000B35C3C /* Visualization.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAC67FD00C58684500DE8849 /* Test_notemp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC67FD80C58684600DE8849 /* Build configuration list for PBXNativeTarget "Test_notemp" */;
+			buildPhases = (
+				EAC67FCD0C58684500DE8849 /* Resources */,
+				EAC67FCE0C58684500DE8849 /* Sources */,
+				EAC67FCF0C58684500DE8849 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test_notemp;
+			productName = Test_nomag;
+			productReference = EAC67FD10C58684500DE8849 /* Test_notemp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAC680500C586C1D00DE8849 /* Test_temp1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC6805F0C586C1D00DE8849 /* Build configuration list for PBXNativeTarget "Test_temp1" */;
+			buildPhases = (
+				EAC680510C586C1D00DE8849 /* Resources */,
+				EAC680520C586C1D00DE8849 /* Sources */,
+				EAC6805B0C586C1D00DE8849 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test_temp1;
+			productName = Test_nomag;
+			productReference = EAC680620C586C1E00DE8849 /* Test_temp1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAC6806D0C586CB300DE8849 /* Test_temp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC6807C0C586CB300DE8849 /* Build configuration list for PBXNativeTarget "Test_temp2" */;
+			buildPhases = (
+				EAC6806E0C586CB300DE8849 /* Resources */,
+				EAC6806F0C586CB300DE8849 /* Sources */,
+				EAC680780C586CB300DE8849 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test_temp2;
+			productName = Test_nomag;
+			productReference = EAC6807F0C586CB300DE8849 /* Test_temp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA606FDA0C2C5EBE00B35C3C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EA606FDB0C2C5EBE00B35C3C /* Build configuration list for PBXProject "Visualization" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = EA606FD80C2C5EBE00B35C3C;
+			productRefGroup = EA606FE70C2C5ED000B35C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA606FE50C2C5ED000B35C3C /* Visualization */,
+				EAC67FD00C58684500DE8849 /* Test_notemp */,
+				EAC680500C586C1D00DE8849 /* Test_temp1 */,
+				EAC6806D0C586CB300DE8849 /* Test_temp2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA606FE20C2C5ED000B35C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC67FCD0C58684500DE8849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC680510C586C1D00DE8849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC6806E0C586CB300DE8849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA606FE30C2C5ED000B35C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6070030C2C5F2100B35C3C /* dipole.cpp in Sources */,
+				EA6070040C2C5F2100B35C3C /* lattice.cpp in Sources */,
+				EA6070050C2C5F2100B35C3C /* Point.cpp in Sources */,
+				EA6070060C2C5F2100B35C3C /* StreamLine.cpp in Sources */,
+				EA6070070C2C5F2100B35C3C /* StreamSurface.cpp in Sources */,
+				EA6070080C2C5F2100B35C3C /* testLattice.cpp in Sources */,
+				EA6070090C2C5F2100B35C3C /* vec.cpp in Sources */,
+				EA84196F0C32FA5C00B7D356 /* VolumeRenderer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC67FCE0C58684500DE8849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC680130C58693E00DE8849 /* VolumeRenderer.cpp in Sources */,
+				EAC680140C58693E00DE8849 /* dipole.cpp in Sources */,
+				EAC680150C58693E00DE8849 /* lattice.cpp in Sources */,
+				EAC680160C58693E00DE8849 /* Point.cpp in Sources */,
+				EAC680170C58693E00DE8849 /* StreamLine.cpp in Sources */,
+				EAC680180C58693E00DE8849 /* StreamSurface.cpp in Sources */,
+				EAC6801A0C58693E00DE8849 /* vec.cpp in Sources */,
+				EAC680840C586CFA00DE8849 /* testLatticenotemp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC680520C586C1D00DE8849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC680530C586C1D00DE8849 /* VolumeRenderer.cpp in Sources */,
+				EAC680540C586C1D00DE8849 /* dipole.cpp in Sources */,
+				EAC680550C586C1D00DE8849 /* lattice.cpp in Sources */,
+				EAC680560C586C1D00DE8849 /* Point.cpp in Sources */,
+				EAC680570C586C1D00DE8849 /* StreamLine.cpp in Sources */,
+				EAC680580C586C1D00DE8849 /* StreamSurface.cpp in Sources */,
+				EAC680590C586C1D00DE8849 /* vec.cpp in Sources */,
+				EAC680A90C586DE700DE8849 /* testLatticetemp1.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC6806F0C586CB300DE8849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC680700C586CB300DE8849 /* VolumeRenderer.cpp in Sources */,
+				EAC680710C586CB300DE8849 /* dipole.cpp in Sources */,
+				EAC680720C586CB300DE8849 /* lattice.cpp in Sources */,
+				EAC680730C586CB300DE8849 /* Point.cpp in Sources */,
+				EAC680740C586CB300DE8849 /* StreamLine.cpp in Sources */,
+				EAC680750C586CB300DE8849 /* StreamSurface.cpp in Sources */,
+				EAC680760C586CB300DE8849 /* vec.cpp in Sources */,
+				EAC680830C586CEC00DE8849 /* testLatticetemp2.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA606FDC0C2C5EBE00B35C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				SHARED_PRECOMPS_DIR = "$(inherited)";
+			};
+			name = Debug;
+		};
+		EA606FDD0C2C5EBE00B35C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				SHARED_PRECOMPS_DIR = "$(inherited)";
+			};
+			name = Release;
+		};
+		EA606FEB0C2C5ED000B35C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Headers/Carbon.h";
+				INFOPLIST_FILE = "Visualization-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Visualization;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		EA606FEC0C2C5ED000B35C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Visualization-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Visualization;
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Release;
+		};
+		EAC67FD90C58684600DE8849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Test_nomag-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUI,
+					"-framework",
+					GLUT,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test_notemp;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		EAC67FDA0C58684600DE8849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Test_nomag-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUI,
+					"-framework",
+					GLUT,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test_notemp;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Release;
+		};
+		EAC680600C586C1D00DE8849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "/Users/zacoler/Documents/sumres/Iteration/Visualization/Test_nomag-Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUI,
+					"-framework",
+					GLUT,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test_temp1;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		EAC680610C586C1D00DE8849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "/Users/zacoler/Documents/sumres/Iteration/Visualization/Test_nomag-Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUI,
+					"-framework",
+					GLUT,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test_temp1;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Release;
+		};
+		EAC6807D0C586CB300DE8849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "/Users/zacoler/Documents/sumres/Iteration/Visualization/Test_nomag-Info copy 2.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUI,
+					"-framework",
+					GLUT,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test_temp2;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		EAC6807E0C586CB300DE8849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "/Users/zacoler/Documents/sumres/Iteration/Visualization/Test_nomag-Info copy 2.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUI,
+					"-framework",
+					GLUT,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test_temp2;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA606FDB0C2C5EBE00B35C3C /* Build configuration list for PBXProject "Visualization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA606FDC0C2C5EBE00B35C3C /* Debug */,
+				EA606FDD0C2C5EBE00B35C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA606FEA0C2C5ED000B35C3C /* Build configuration list for PBXNativeTarget "Visualization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA606FEB0C2C5ED000B35C3C /* Debug */,
+				EA606FEC0C2C5ED000B35C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC67FD80C58684600DE8849 /* Build configuration list for PBXNativeTarget "Test_notemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC67FD90C58684600DE8849 /* Debug */,
+				EAC67FDA0C58684600DE8849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC6805F0C586C1D00DE8849 /* Build configuration list for PBXNativeTarget "Test_temp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC680600C586C1D00DE8849 /* Debug */,
+				EAC680610C586C1D00DE8849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC6807C0C586CB300DE8849 /* Build configuration list for PBXNativeTarget "Test_temp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC6807D0C586CB300DE8849 /* Debug */,
+				EAC6807E0C586CB300DE8849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA606FDA0C2C5EBE00B35C3C /* Project object */;
+}

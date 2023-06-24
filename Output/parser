@@ -1,0 +1,28 @@
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+#include <math.h>
+#include <stdio.h>
+#include <time.h>
+#include <string.h>
+
+using namespace std;
+
+//ofstream outputData;
+
+int main(int argc, char** argv)
+{
+	char* my_datafile = "data.txt";
+	//outputData.open(datafile,ios::out);
+	//outputData.close();
+	char my_func[100];
+	float magfield = .01;
+	float temperature = .01;
+	for(magfield = .01; magfield <= .1; magfield += .01)
+	{
+		int q = sprintf((char*)&my_func,"./Output %s %f %f",my_datafile,magfield,temperature);
+		cout<<my_func<<endl;
+		system(my_func);
+	}
+	return 0;
+}
